@@ -9,3 +9,7 @@ class Song
   end
 
 end
+
+drunken_love = Song.new ("Drunken Love")
+beyonce = Artist.new ("Beyonce")
+drunken_love.artist = beyonce
